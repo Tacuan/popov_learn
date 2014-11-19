@@ -1,0 +1,119 @@
+body {
+	font:14px Tahoma;
+	color: #333333; /*черный*/
+	margin:0 auto;
+	padding: 15px;
+	width:1000px;
+	background-color:#ffffff;
+	border: 1px solid #cccccc;
+}
+
+
+p {
+	text-align:justify; /*выравнивание всех абзацов по ширине страницы*/
+	text-indent:30px; /*отступ для каждого абзаца*/
+	}
+
+#header {
+	text-align:center; /*выравнивание заголовка по центру*/
+	word-spacing:10px; /*фиксированное расстояние между словами*/ 
+	letter-spacing:2px; /*расстояние между буквами*/
+	text-transform:capitalize; /*изменить буквы текста*/
+	padding:40px 20px;
+	margin:20px auto;
+	width:550px; /*задание ширины СОДЕРЖИМОГО*/
+	background-color:#cc0000;
+	color:#ffffff;
+	border:4px solid #FFDD00;
+	}
+
+/*установка цвета для 4-х состояний линка*/
+a:link {
+	color:#111111;}
+
+a:visited {
+	color: #EF0FFF;}
+
+a:hover {
+	color:#55E3FF;}
+
+a:active {
+	color:#FFE419;}
+	
+
+.new2 {
+	font-style:italic; /*курсив для елемента class="new2"*/
+	font-size:18px;}
+
+.new3 {
+	font-weight:bold; /*насыщенность (жирность) шрифта*/
+	text-decoration:line-through;} /*под/над/перечеркивание линией*/
+	
+a {
+	text-decoration:none; /*убрать подчеркивание ссылок*/
+	border-bottom:1px dashed #FF4671; /*укороченная запись подчеркивания ссылки*/}
+
+	
+ul {
+	list-style: inside url(../images/arrow.png); /*вид маркера - подгружен рисунок arrow.png*/ }
+		
+
+.new6 {
+	color:#FF00AE;} /*малиновый*/
+
+#liSuper {
+	color:#FFDD00;} /*золотистый*/
+	
+#myList li.new6 {
+	color: #804000;} /*коричневый*/
+	
+
+table, td, th {
+	border: 1px solid #cccccc;
+	text-align:center;
+}
+
+table {
+	width:700px;
+	border-collapse:collapse;
+	margin:0 auto;
+}
+
+td, th {
+	height:40px;
+	padding:5px;
+	vertical-align:top;
+	background-color:#ffffff;
+}
+
+th {
+	background-image:url(../images/tablebg.jpg);
+}
+
+tr.blue td {
+	background-color:#D5F9F9;
+}
+
+#myImg {
+	float:right;
+	border: 1px solid #cccccc;
+	margin:0 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
